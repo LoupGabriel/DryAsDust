@@ -3,7 +3,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private static GameManager m_instance;
-    public SceneTransitionManager m_sceneTransitionManager;
+    private SceneTransitionManager m_sceneTransitionManager;
+    public BulletPool m_bulletPool;
     public static GameManager GetInstance()
     {
         return m_instance;
@@ -35,5 +36,6 @@ public class GameManager : MonoBehaviour
     private void LoadManager()
     {
         m_sceneTransitionManager = GetComponent<SceneTransitionManager>();
+        m_bulletPool = GetComponent<BulletPool>();
     }
 }
