@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef370284f67bf3240aadfde3def9a78b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_sceneTransitionManager: {fileID: 0}
+  m_bulletPool: {fileID: 0}
 --- !u!4 &548498944
 Transform:
   m_ObjectHideFlags: 0
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BlackPanel: {fileID: 1972647968}
-  m_sceneTransitionTime: 2
+  m_sceneTransitionTime: 0.5
 --- !u!114 &548498946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,6 +330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff397239fa8225648930cd091eaa9750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_bulletList: []
   m_bullet: {fileID: 6406028388397490114, guid: 68cbcbb4a85f0834c8155c7c5c68d88d, type: 3}
 --- !u!1 &740579346
 GameObject:

@@ -18,8 +18,9 @@ public class BulletPool : MonoBehaviour
             }
        
         }
+
         GameObject newBullet = Instantiate(m_bullet);
-        BulletItem newBulletItem = m_bullet.GetComponent<BulletItem>();
+        BulletItem newBulletItem = newBullet.GetComponent<BulletItem>();
 
         m_bulletList.Add(newBulletItem);
         return newBulletItem;

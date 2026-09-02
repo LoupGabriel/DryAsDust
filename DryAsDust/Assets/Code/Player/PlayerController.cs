@@ -16,10 +16,10 @@ public class PlayerController : MonoBehaviour
     //Player Stats
 
     private Rigidbody2D m_rb;
-
+    private Animator m_animator;
     [SerializeField] private SpriteRenderer m_renderer;
     [SerializeField] float m_playerSpeed = 5f;
-
+    private bool m_isRunning;
 
 
     private void Awake()
@@ -27,12 +27,14 @@ public class PlayerController : MonoBehaviour
         m_movement = m_inputAAsset.FindAction("Move");
         m_shoot = m_inputAAsset.FindAction("Shoot");
         m_rb = GetComponent<Rigidbody2D>();
+        m_animator = GetComponent<Animator>();
     }
 
     private void Update()
     {
         HandleInput();
-        //ShootingDirection();
+        HandleAnimation();
+        ShootingDirection();
         HandleFlip();
         if (m_hasShoot)
         {
@@ -64,7 +66,11 @@ public class PlayerController : MonoBehaviour
 
         m_rb.linearVelocity = playerVelocity;
     }
-
+    private void HandleAnimation()
+    {
+        
+        m_animator.SetBool("isRunning", m_rb.linearVelocity.magnitude > 0);
+    }
     private void ShootingDirection()
     {
         Vector2 screenPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
