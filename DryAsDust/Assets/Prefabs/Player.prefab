@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 8258225080071694267, guid: b142ea40b7bff3243b86c20c71843e1f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -128,10 +128,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8294914241548503719}
-  - component: {fileID: 7129071741114182764}
   - component: {fileID: 1066631546784083186}
   - component: {fileID: 782688304623072870}
   - component: {fileID: 6610183099002572024}
+  - component: {fileID: 8109086444703435108}
+  - component: {fileID: 8170439146391348431}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -156,22 +157,6 @@ Transform:
   - {fileID: 3176048789974770127}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7129071741114182764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3106982052617338652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36a01d52eee04a2429a0f19214bfba3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_inputAAsset: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  m_debugVisualization: 1
-  m_renderer: {fileID: 3484909991733269811}
-  m_playerSpeed: 1.5
 --- !u!114 &1066631546784083186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,10 +169,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fd536da60966ba48a55ae18c779b53c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_bulletPrefab: {fileID: 6406028388397490114, guid: 68cbcbb4a85f0834c8155c7c5c68d88d, type: 3}
+  m_bulletPrefab: {fileID: 7202411680802585155, guid: 68cbcbb4a85f0834c8155c7c5c68d88d, type: 3}
   m_shootingForce: 10
   m_gunPivot: {fileID: 3176048789974770127}
   m_gunTip: {fileID: 727374909773890996}
+  m_attackRate: 100
+  m_attackTimer: 0
 --- !u!50 &782688304623072870
 Rigidbody2D:
   serializedVersion: 5
@@ -237,6 +224,49 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8109086444703435108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3106982052617338652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2637545da75d01c4189c76392a211cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_speed: 1.5
+  m_maxHp: 10
+  m_damage: 0
+  m_currentHp: 0
+  m_spriteRenderer: {fileID: 3484909991733269811}
+  m_animator: {fileID: 6610183099002572024}
+--- !u!114 &8170439146391348431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3106982052617338652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00b1c3974c87c64aa637bbec21417e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_entity: {fileID: 8109086444703435108}
+  m_rb: {fileID: 782688304623072870}
+  m_stateMachine:
+    m_states:
+    - rid: 946234448756343106
+  m_debugVisualization: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 946234448756343106
+      type: {class: PlayerMoveState, ns: , asm: Assembly-CSharp}
+      data:
+        isDefault: 1
 --- !u!1 &3687035934183722755
 GameObject:
   m_ObjectHideFlags: 0

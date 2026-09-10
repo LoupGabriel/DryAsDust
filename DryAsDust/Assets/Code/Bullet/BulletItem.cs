@@ -1,21 +1,27 @@
 using System.Collections;
 using System.Timers;
 using UnityEngine;
+using UnityEngine.Pool;
 
-public class BulletItem : MonoBehaviour
+public class BulletItem : PooledObject
 {
 
     [SerializeField] private float m_bulletLifetime = 1f;
+    [SerializeField] private int m_damage = 1;
 
     private void Awake()
     {
         StartCoroutine(BulletLife());
     }
-    
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
-        gameObject.SetActive(false);
+        if (collision.gameObject.TryGetComponent<IDamageable>(out var target))
+        {
+            target.TakeDamage(m_damage);
+            
+        }
+        ReturnToPool();
 
     }
 
@@ -25,9 +31,9 @@ public class BulletItem : MonoBehaviour
         while (elapse < m_bulletLifetime)
         {
             elapse += Time.deltaTime;
-            yield   return null;
+            yield return null;
         }
-        gameObject.SetActive(false);
+        ReturnToPool();
     }
 }
 

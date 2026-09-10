@@ -1,41 +1,35 @@
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager : Singleton<GameManager>
 {
-    private static GameManager m_instance;
-    private SceneTransitionManager m_sceneTransitionManager;
-    public BulletPool m_bulletPool;
-    public static GameManager GetInstance()
+    [Header("Manager")]
+    [SerializeField] private SceneTransitionManager m_sceneTransitionManager;
+    [SerializeField] private BulletPool m_bulletPool;
+    [SerializeField] private PoolManager m_poolManager;
+
+    //Getter
+    public SceneTransitionManager SceneTransitionManager => m_sceneTransitionManager;
+    public BulletPool BulletPool => m_bulletPool;
+    public PoolManager PoolManager => m_poolManager;
+
+
+    protected override void Awake()
     {
-        return m_instance;
-    }
-    private void Awake()
-    {
-       if(m_instance == null)
-        {
-            m_instance = this;
-            DontDestroyOnLoad(gameObject);
-
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-
-        LoadManager();
-
-
+        base.Awake();
+        InitManager();
     }
 
     private void Start()
     {
         m_sceneTransitionManager.LoadScene("MainMenu");
+        SoundtrackManager.Instance.PlayMusic("Ambience");
     }
 
-
-    private void LoadManager()
+    private void InitManager()
     {
-        m_sceneTransitionManager = GetComponent<SceneTransitionManager>();
-        m_bulletPool = GetComponent<BulletPool>();
+        m_poolManager.Init();
     }
 }
+
+
+ 
