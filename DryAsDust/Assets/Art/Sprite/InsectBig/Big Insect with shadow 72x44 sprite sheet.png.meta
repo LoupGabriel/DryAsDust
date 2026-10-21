@@ -1,0 +1,880 @@
+fileFormatVersion: 2
+guid: 31fcd0412dd780542996880bda635c9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2900692792890448696
+    second: Big Insect with shadow 72x44 sprite sheet_0
+  - first:
+      213: 5680934411827199879
+    second: Big Insect with shadow 72x44 sprite sheet_1
+  - first:
+      213: 14220882007848447
+    second: Big Insect with shadow 72x44 sprite sheet_2
+  - first:
+      213: 6072335115726106495
+    second: Big Insect with shadow 72x44 sprite sheet_3
+  - first:
+      213: 3115977023834125629
+    second: Big Insect with shadow 72x44 sprite sheet_4
+  - first:
+      213: 6635623662628021578
+    second: Big Insect with shadow 72x44 sprite sheet_5
+  - first:
+      213: -3020873271609405163
+    second: Big Insect with shadow 72x44 sprite sheet_6
+  - first:
+      213: -5554428641615967866
+    second: Big Insect with shadow 72x44 sprite sheet_7
+  - first:
+      213: 6997658656404630750
+    second: Big Insect with shadow 72x44 sprite sheet_8
+  - first:
+      213: -6819704577781675188
+    second: Big Insect with shadow 72x44 sprite sheet_9
+  - first:
+      213: 3458037998499943073
+    second: Big Insect with shadow 72x44 sprite sheet_10
+  - first:
+      213: 5246052037489742244
+    second: Big Insect with shadow 72x44 sprite sheet_11
+  - first:
+      213: 1866760769046586013
+    second: Big Insect with shadow 72x44 sprite sheet_12
+  - first:
+      213: 548416506497316311
+    second: Big Insect with shadow 72x44 sprite sheet_13
+  - first:
+      213: -788810788869387258
+    second: Big Insect with shadow 72x44 sprite sheet_14
+  - first:
+      213: -5462205047757840247
+    second: Big Insect with shadow 72x44 sprite sheet_15
+  - first:
+      213: -1201398514307282142
+    second: Big Insect with shadow 72x44 sprite sheet_16
+  - first:
+      213: -1517927036211838266
+    second: Big Insect with shadow 72x44 sprite sheet_17
+  - first:
+      213: 3227422491366696120
+    second: Big Insect with shadow 72x44 sprite sheet_18
+  - first:
+      213: -7494747529185144082
+    second: Big Insect with shadow 72x44 sprite sheet_19
+  - first:
+      213: 3167100143747351738
+    second: Big Insect with shadow 72x44 sprite sheet_20
+  - first:
+      213: 167655098609461571
+    second: Big Insect with shadow 72x44 sprite sheet_21
+  - first:
+      213: -7802182100275593230
+    second: Big Insect with shadow 72x44 sprite sheet_22
+  - first:
+      213: 7252728236815456155
+    second: Big Insect with shadow 72x44 sprite sheet_23
+  - first:
+      213: -7392622051115187335
+    second: Big Insect with shadow 72x44 sprite sheet_24
+  - first:
+      213: -9094526662918979597
+    second: Big Insect with shadow 72x44 sprite sheet_25
+  - first:
+      213: -8256632488606365907
+    second: Big Insect with shadow 72x44 sprite sheet_26
+  - first:
+      213: -3018024545017574957
+    second: Big Insect with shadow 72x44 sprite sheet_27
+  - first:
+      213: -6590176030709970353
+    second: Big Insect with shadow 72x44 sprite sheet_28
+  - first:
+      213: 1727713786045322761
+    second: Big Insect with shadow 72x44 sprite sheet_29
+  - first:
+      213: -3518694336550363349
+    second: Big Insect with shadow 72x44 sprite sheet_30
+  - first:
+      213: -2308108488939169668
+    second: Big Insect with shadow 72x44 sprite sheet_31
+  - first:
+      213: 5849414773956145502
+    second: Big Insect with shadow 72x44 sprite sheet_32
+  - first:
+      213: -6545674742057158781
+    second: Big Insect with shadow 72x44 sprite sheet_33
+  - first:
+      213: 7573516948533804777
+    second: Big Insect with shadow 72x44 sprite sheet_34
+  - first:
+      213: 6050561447100073765
+    second: Big Insect with shadow 72x44 sprite sheet_35
+  - first:
+      213: 6516276509569353052
+    second: Big Insect with shadow 72x44 sprite sheet_36
+  - first:
+      213: 7602195979392685948
+    second: Big Insect with shadow 72x44 sprite sheet_37
+  - first:
+      213: -4925667574616574587
+    second: Big Insect with shadow 72x44 sprite sheet_38
+  - first:
+      213: -2540842985097081039
+    second: Big Insect with shadow 72x44 sprite sheet_39
+  - first:
+      213: 3640377109027497500
+    second: Big Insect with shadow 72x44 sprite sheet_40
+  - first:
+      213: 6996477484123756941
+    second: Big Insect with shadow 72x44 sprite sheet_41
+  - first:
+      213: -2877037083657006729
+    second: Big Insect with shadow 72x44 sprite sheet_42
+  - first:
+      213: 3991384749114635547
+    second: Big Insect with shadow 72x44 sprite sheet_43
+  - first:
+      213: 498635823666518657
+    second: Big Insect with shadow 72x44 sprite sheet_44
+  - first:
+      213: 3717633425743944507
+    second: Big Insect with shadow 72x44 sprite sheet_45
+  - first:
+      213: 4740742941340595844
+    second: Big Insect with shadow 72x44 sprite sheet_46
+  - first:
+      213: -8053094214915745214
+    second: Big Insect with shadow 72x44 sprite sheet_47
+  - first:
+      213: 5122040807491290257
+    second: Big Insect with shadow 72x44 sprite sheet_48
+  - first:
+      213: -9179698302806426050
+    second: Big Insect with shadow 72x44 sprite sheet_49
+  - first:
+      213: -208187846630043627
+    second: Big Insect with shadow 72x44 sprite sheet_50
+  - first:
+      213: -5610845179101137469
+    second: Big Insect with shadow 72x44 sprite sheet_51
+  - first:
+      213: -2623878786350087334
+    second: Big Insect with shadow 72x44 sprite sheet_52
+  - first:
+      213: -1465396915005039573
+    second: Big Insect with shadow 72x44 sprite sheet_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15346166b9ed1824cbb855e700cb611a
+      internalID: 1063066442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 88
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecda687184d563b43a70036e1b7fc30e
+      internalID: 1327430640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 88
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301cc8a83a40d114d9292827e91440d6
+      internalID: 412305035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 88
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c266be8110042cb47bea248f22ec8de5
+      internalID: 562961268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 88
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4172abd2ddb3a0f45a86202fbc58210b
+      internalID: -1177434261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 88
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f31e5e71ecf4ce4db4ba75ecf285fc8
+      internalID: -1847171127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 88
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f868e3de1da1d9458159dca3fa1a13d
+      internalID: 874980036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 88
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1c6eb591d97834fbe915cf719589bb
+      internalID: 1296427339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded15edda18137c4686326813faba9b7
+      internalID: -1151194418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 44
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b057d00a3d3c47049b43b6a0e81c1d5d
+      internalID: -1837382497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 44
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dac971c27057e042baf1bf20d440482
+      internalID: 39777228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 44
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c228619483c3e4ea1973d2a0d2d00f
+      internalID: 466966536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 44
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d198ec5a99e339d4a998c5fc100cdebf
+      internalID: -1220324557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 44
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510b74bc376590c44b58ab42dbacb725
+      internalID: 2113134283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c2761e7fd2b1642873bd815d93c41a
+      internalID: -1649777952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05c60b010668a64ba1f2c9531c02f2c
+      internalID: 398203114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1276377d12b504e4481be068d44b2180
+      internalID: -986031243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969fd2a32cb78344292026d26c5c0267
+      internalID: -1520147293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62ac892348eaa54496a079a5d4e4086
+      internalID: -909384565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d361b06427655140b0696df1c13c133
+      internalID: 474816400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc72f6061fc23ce49a7deba8866beae6
+      internalID: 989917365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4ad01d1ddadf5419356e28379b2bd8
+      internalID: -2045867274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2550846e1d86db4db9aec3399216f68
+      internalID: -207466483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fa567b35f52c8449b855f3afe9a70d
+      internalID: -975931573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Insect with shadow 72x44 sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0efe3290832dde488c68e784571f9fe
+      internalID: -1888692032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d2737a4e6f960834ca7b53ebd520c851
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Big Insect with shadow 72x44 sprite sheet_0: 1063066442
+      Big Insect with shadow 72x44 sprite sheet_1: 1327430640
+      Big Insect with shadow 72x44 sprite sheet_10: 39777228
+      Big Insect with shadow 72x44 sprite sheet_11: 466966536
+      Big Insect with shadow 72x44 sprite sheet_12: -1220324557
+      Big Insect with shadow 72x44 sprite sheet_13: 2113134283
+      Big Insect with shadow 72x44 sprite sheet_14: -1649777952
+      Big Insect with shadow 72x44 sprite sheet_15: 398203114
+      Big Insect with shadow 72x44 sprite sheet_16: -986031243
+      Big Insect with shadow 72x44 sprite sheet_17: -1520147293
+      Big Insect with shadow 72x44 sprite sheet_18: -909384565
+      Big Insect with shadow 72x44 sprite sheet_19: 474816400
+      Big Insect with shadow 72x44 sprite sheet_2: 412305035
+      Big Insect with shadow 72x44 sprite sheet_20: 989917365
+      Big Insect with shadow 72x44 sprite sheet_21: -2045867274
+      Big Insect with shadow 72x44 sprite sheet_22: -207466483
+      Big Insect with shadow 72x44 sprite sheet_23: -975931573
+      Big Insect with shadow 72x44 sprite sheet_24: -1888692032
+      Big Insect with shadow 72x44 sprite sheet_3: 562961268
+      Big Insect with shadow 72x44 sprite sheet_4: -1177434261
+      Big Insect with shadow 72x44 sprite sheet_5: -1847171127
+      Big Insect with shadow 72x44 sprite sheet_6: 874980036
+      Big Insect with shadow 72x44 sprite sheet_7: 1296427339
+      Big Insect with shadow 72x44 sprite sheet_8: -1151194418
+      Big Insect with shadow 72x44 sprite sheet_9: -1837382497
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

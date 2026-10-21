@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static UnityEngine.GUI;
@@ -7,7 +8,7 @@ public class CheatManager : MonoBehaviour
     public static CheatManager Instance { get; private set; }
 
     private bool m_showWindow = false;
-    private Rect m_winRect = new Rect(20, 20, 250, 500);
+    private Rect m_winRect = new Rect(20, 20, 250, 200);
 
     private string m_Amount = "1";
     private bool m_giveHp;
@@ -61,6 +62,7 @@ public class CheatManager : MonoBehaviour
         {
             int amount = int.Parse(m_Amount);
             OnDamage?.Invoke(amount);
+           
         }
 
 

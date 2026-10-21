@@ -6,20 +6,22 @@ using UnityEngine.UIElements;
 public class WeaponController : MonoBehaviour
 {
 
-    [SerializeField] PooledObject m_bulletPrefab;
-    [SerializeField] float m_shootingForce = 5f;
+    
+    
     [SerializeField] private Transform m_gunPivot;
     [SerializeField] private Transform m_gunTip;
-    [SerializeField] private float m_attackRate;
-    [SerializeField] private float m_attackTimer;
+    [SerializeField] private WeaponSo m_weapon;
+    [SerializeField] private SpriteRenderer m_gunSpriteRenderer;
+    private float m_attackTimer;
 
     private bool m_hasShoot;
-    private SpriteRenderer m_gunSpriteRenderer;
+   
 
     public float GetAttackTimer() => m_attackTimer;
     void Start()
     {
         EventsManager.GetInstance().SubscribeTo(EEvents.ON_PLAYER_SHOOTING, Shooting);
+        m_gunSpriteRenderer.sprite = m_weapon.sprite;
         m_gunSpriteRenderer = m_gunPivot.GetComponentInChildren<SpriteRenderer>();
     }
 
@@ -41,8 +43,8 @@ public class WeaponController : MonoBehaviour
         m_hasShoot = (bool)data["hasShoot"];
         Vector2 direction = (Vector2)data["direction"];
 
-        m_attackTimer = 1f / m_attackRate;
-        var currentBullet = GameManager.Instance.PoolManager.Spawn(m_bulletPrefab, m_gunTip.position,Quaternion.identity) as BulletItem;
+        m_attackTimer = 1f / m_weapon.attackRate;
+        var currentBullet = GameManager.Instance.PoolManager.Spawn(m_weapon.projectilePrefab, m_gunTip.position,Quaternion.identity) as BulletItem;
         currentBullet.gameObject.SetActive(true);
         currentBullet.transform.position = m_gunTip.position;
 
@@ -50,8 +52,11 @@ public class WeaponController : MonoBehaviour
         SfxManager.PlaySfx("Riffle_Shoot");
 
         Rigidbody2D rb = currentBullet.gameObject.GetComponent<Rigidbody2D>();
-
-        rb.AddForce(direction * m_shootingForce, ForceMode2D.Impulse);
+        currentBullet.SetDirection(direction);
+        rb.AddForce(direction * m_weapon.shootinForce, ForceMode2D.Impulse);
+        //bullet rotation
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        rb.gameObject.transform.rotation = Quaternion.Euler(0, 0, angle);
 
     }
 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b142ea40b7bff3243b86c20c71843e1f
+guid: 4499ce40686b2ba4988e725f33665a08
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8258225080071694267
-    second: gun sprite BLUE_0
+      213: 2105029642387069254
+    second: gun8_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,6 +96,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -103,12 +129,12 @@ TextureImporter:
       name: gun sprite BLUE_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 12
-        height: 3
+        x: 7
+        y: 3
+        width: 21
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bb29ffcbaf5c84643b21b8efe379fdae
     internalID: 0
     vertices: []
     indices: 

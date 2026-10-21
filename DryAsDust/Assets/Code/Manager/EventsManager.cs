@@ -6,6 +6,9 @@ using UnityEngine;
 public enum EEvents
 {
     ON_PLAYER_SHOOTING,
+    ON_PLAYER_DEATH,
+    ON_PlAYER_TAKE_DAMAGE,
+    ON_DESTRUCTIBLE_DAMAGE
 }
 public class EventsManager 
 {

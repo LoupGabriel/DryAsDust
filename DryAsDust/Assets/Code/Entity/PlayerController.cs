@@ -48,6 +48,10 @@ public class PlayerController : EntityController
         
     }
 
+    protected override void HandleAnimation()
+    {
+        Entity.Animator.SetBool("isRunning", Rb.linearVelocity.magnitude > 0);
+    }
     protected override void FixedUpdate()
     {
         base.FixedUpdate();
