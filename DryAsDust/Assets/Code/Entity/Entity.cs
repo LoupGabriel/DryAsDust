@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Entity :MonoBehaviour, IDamageable
+public class Entity : PooledObject , IDamageable
 {
     [SerializeField] protected float m_speed;
     [SerializeField] protected int m_maxHp;
@@ -56,8 +56,7 @@ public class Entity :MonoBehaviour, IDamageable
 
     public void ReturnToPool()
     {
-        //destroy temporary 
-        Destroy(gameObject);
+        base.ReturnToPool();    
     }
 
     public virtual void TakeDamage(int amount)
